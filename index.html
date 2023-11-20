@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChessTest</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/sidebars.css">
+</head>
+<body>
+    <header>
+        <!-- Logo Here when made 
+        <img src="logo.png" alt="Logo"> -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="sidebar left-sidebar">
+        <div>Join Queue</div>
+        <ul class="game-modes">
+            <li>Standard</li>
+            <li>Blitz</li>
+            <li>Rapid</li>
+        </ul>
+    </div>
+
+    <div class="sidebar right-sidebar">
+        <div class="account-info">
+            <div id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Enter username">
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter password">
+                <button id="login-button">Login</button>
+            </div>
+            <div id="user-info" style="display: none;">
+                <p>Username: <span id="username-display"></span></p>
+                <p>Rating: <span id="rating-display"></span></p>
+            </div>
+        </div>
+        <div class="messages">
+            <p>Messages: 0</p>
+        </div>
+        <div class="friends-online">
+            <p>Friends Online: 0</p>
+        </div>
+    </div>
+
+    <main>
+
+    </main>
+
+    <footer>
+        <p>&copy;ChessTest 2023</p>
+    </footer>
+
+    <script type = "module" src="js/main.js"></script>
+</body>
+</html>

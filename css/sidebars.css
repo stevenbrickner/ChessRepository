@@ -1,0 +1,58 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 200px;
+    padding: 20px;
+    background-color: #8D99AE;
+    color: #fff;
+    overflow-y: auto;
+    z-index: 0;
+    margin-top: 50px;
+}
+
+.left-sidebar {
+    left: 0;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+
+.right-sidebar {
+    right: 0;
+    border-left: 1px solid #ccc;
+}
+
+/* Styles for the list of chess game modes */
+.game-modes {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.game-modes li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #EF223C;
+    text-align:center;
+}
+
+.faded {
+    opacity: 0.5;
+}
+
+/* Styles for the account information */
+.account-info {
+    margin-top: 20px;
+}
+
+/* Styles for the User class information */
+.user-info {
+    margin-top: 20px;
+}
+
+/* Styles for messages and friends online */
+.messages,
+.friends-online {
+    margin-top: 20px;
+}
