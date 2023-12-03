@@ -1,4 +1,45 @@
 Steven Brickner
+COP 3813 21Z
+12/3/2023
+
+
+This application is meant to represent an online chess server, similar to 
+Chess.com or Lichess. Such systems host tens of thousands of concurrent games 
+of chess in multiple different variants, which can even be observed in real-time. 
+They have a vast swath of other features including puzzles and tutorials, tournaments 
+and leaderboards, analytics and anti-cheat, game importer and editing tools, and more. 
+This is what I had in mind when I decided on this as my project and when I considered 
+requirements. Creating anything even close to that was never the goal. This instead
+focuses on representing the essential system actions: a user logs in or registers, 
+joins a queue, gets matched into a game, and plays a game of chess. 
+
+The process of user authentication and function calls to the database are represented
+on the right sidebar, and queue-joining and matchmaking on the left. The buttons on 
+the left can only be clicked after logging in, although any entry in the form is accepted, 
+and clicking them opens the chess game page. The user session isn’t actually updated when 
+logging in or carried over to the new chess page because I couldn't figure that out.
+
+The rendered chess game doesn't work (assuming I don't fix it before submitting this),
+unfortunately. I'm very bad at JavaScript and clicking the board doesn't find the piece
+even when one is visually there. The test button simply goes through the method calls,
+which output to the browser console to visually display the flow of information. White
+pieces are capitalized and black pieces are lowercase to differentiate, unless I
+replaced these with images and forgot to write it here. The buttons are also meant to
+be hidden for the opposing user, but I didn't get that working in time.
+
+Just in case, I included the classes, sequence diagram, generalization diagram,
+and activity diagram I made in the img folder. They're a bit out of date and
+slightly incorrect, but they still represent the general structure.
+
+____________________________________________________________________________________
+
+Information below for System Development 1 Course and for the repository
+
+* Update: added content to the main page
+          added the about page + content
+          restructured the CSS of the header, footer, and sidebars to a grid layout
+
+Steven Brickner
 CEN 3024 01Z
 
 Chess System Implementation
@@ -7,7 +48,7 @@ I know I coded much more than I was required to but
 
  1. I actually wanted to get this working, including with a server and database,
     except for piece movement logic. Unfortunately I've been sick from the 30th to 
-    the 17th and couldn't do much classwork at the time.
+    the 17th (update: still sick as of 12/3) and couldn't do much classwork at the time.
  2. This is also going to be my final submission for my Internet Programming class.
 
 The actual code I have in place is an absolute mess. I intended to completely

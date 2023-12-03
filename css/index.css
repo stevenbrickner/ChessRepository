@@ -1,0 +1,52 @@
+h2 {
+    text-align: center;
+    -webkit-text-stroke: 1px red;
+}
+
+.leaderboard,
+.tournaments {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.scrollable-container {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.leaderboard-table,
+.tournaments-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.leaderboard-table th,
+.leaderboard-table td,
+.tournaments-table th,
+.tournaments-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.leaderboard-table th,
+.tournaments-table th {
+    background-color: #050505;
+    width: 33%
+}
+
+.rank {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+p {
+    text-align: center;
+}
+
+p a:link,
+p a:visited {
+    color: #0ff;
+}

@@ -6,15 +6,18 @@
     <title>ChessTest</title>
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/sidebars.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header>
-        <!-- Logo Here when made 
-        <img src="logo.png" alt="Logo"> -->
+        <div class="logo">
+            <img src="img/logo.jpg" alt="Logo">
+            <span>ChessTest</span>
+        </div>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="docs/about.html">About</a></li>
             </ul>
         </nav>
     </header>
@@ -51,7 +54,179 @@
     </div>
 
     <main>
+        <section class="leaderboard">
+            <h2>Leaderboard</h2>
+            <div class="scrollable-container">
+                <table class="leaderboard-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Username</th>
+                            <th>Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>GrandmasterMagnus</td>
+                            <td>1785</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>QueenChessie</td>
+                            <td>1750</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>TacticalKnight</td>
+                            <td>1723</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>CheckmateProdigy</td>
+                            <td>1698</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>StrategicRook</td>
+                            <td>1675</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>BlitzMastermind</td>
+                            <td>1650</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>EndgameMaestro</td>
+                            <td>1625</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>OpeningGuru</td>
+                            <td>1600</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>KnightRider</td>
+                            <td>1575</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>PawnPioneer</td>
+                            <td>1550</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>QueenOfChess</td>
+                            <td>1525</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>CastleConqueror</td>
+                            <td>1500</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>BishopBarricade</td>
+                            <td>1480</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>CheckmateChampion</td>
+                            <td>1460</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>RookRampage</td>
+                            <td>1440</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>StrategySorcerer</td>
+                            <td>1420</td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>ChessCharmer</td>
+                            <td>1400</td>
+                        </tr>
+                        <tr>
+                            <td>18</td>
+                            <td>GambitGuru</td>
+                            <td>1380</td>
+                        </tr>
+                        <tr>
+                            <td>19</td>
+                            <td>EnPassantEnigma</td>
+                            <td>1360</td>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td>KingdomKnight</td>
+                            <td>1340</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
 
+        <section class="tournaments">
+            <h2>Open Tournaments</h2>
+            <div class="scrollable-container">
+                <table class="tournaments-table">
+                    <thead>
+                        <tr>
+                            <th>Tournament Name</th>
+                            <th>Date and Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Strategic Showdown</td>
+                            <td>2023-12-15 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Knight's Quest</td>
+                            <td>2023-12-20 20:30</td>
+                        </tr>
+                        <tr>
+                            <td>Rook Rumble</td>
+                            <td>2023-12-25 16:15</td>
+                        </tr>
+                        <tr>
+                            <td>Pawn Palooza</td>
+                            <td>2023-12-30 19:45</td>
+                        </tr>
+                        <tr>
+                            <td>Bishop's Battle Royale</td>
+                            <td>2024-01-10 17:30</td>
+                        </tr>
+                        <tr>
+                            <td>Queens' Quandary</td>
+                            <td>2024-01-15 19:00</td>
+                        </tr>
+                        <tr>
+                            <td>Checkmate Carnival</td>
+                            <td>2024-01-20 21:15</td>
+                        </tr>
+                        <tr>
+                            <td>Castle Clash</td>
+                            <td>2024-01-25 18:45</td>
+                        </tr>
+                        <tr>
+                            <td>Grandmaster Gala</td>
+                            <td>2024-01-30 20:00</td>
+                        </tr>                        
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <div>
+            <p>ChessTest is a free online chess server that relies on your support. Learn about us and how you can support us <a href="docs/about.html">here</a>.
+            </p>
+        </div>
     </main>
 
     <footer>
